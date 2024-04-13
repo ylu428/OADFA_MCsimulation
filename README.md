@@ -29,3 +29,4 @@ This repository provides a Python-based simulation tool for calculating sequenti
 - The resulting anisotropy decay is fitted with an exponential decay function to calculate the rotational correlation time.
 - Simulation results can be exported as CSV files.
 - Imported CSV files can undergo further analysis.
+- To simulate the regular fluorescence anisotropy with only one excitation laser, set the intensity of secondary laser to zero.
