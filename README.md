@@ -26,7 +26,8 @@ This repository provides a Python-based simulation tool for calculating sequenti
 - The rotational Brownian motion and optically activated delayed fluorescence (OADF) of the fluorophore are calculated using Monte Carlo simulation based on the provided parameters.
 - The fluorescence anisotropy decay is calculated by combining the result of rotational Brownian motion OADF.
 - Fluorescence anisotropy is a bulk analysis technique, therefore users can specify the number of molecules participating in the excitation-emission cycle. Increasing the number of molecules enhances result accuracy by reducing noise, but it also extends simulation time.
+- For simulating regular fluorescence anisotropy using a single excitation laser, set the intensity of the secondary laser to zero.
+- A polarization analyzer can be incorporated into the system.
 - The resulting anisotropy decay is fitted with an exponential decay function to calculate the rotational correlation time.
 - Simulation results can be exported as CSV files.
 - Imported CSV files can undergo further analysis.
-- To simulate the regular fluorescence anisotropy with only one excitation laser, set the intensity of secondary laser to zero.
